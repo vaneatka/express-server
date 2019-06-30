@@ -1,0 +1,23 @@
+express - mvc (model view controller)
+
+/app - logica aplicatiei
+    /controllers - logica de control- fiecare fisier din controllers raspunde de destinatia sa
+        products.js  - toate produsele
+        ....
+    /models - logica legata de schema si baza de date
+
+
+    / views - logica de prezentare/ shabloane
+                -server side rendering
+
+/ config - logica de configurare
+        auth - autentificare
+        routes- rutele din sistem
+
+
+
+
+
+
+        citire ejs, pug, marko , handlebars, mustache
+        
