@@ -1,24 +1,56 @@
 [
-    {   
-        "id": "001",
-        "name": "Test Prod 1",
-        "photo": "1.jpg",
-        "price": {
-            "amount": 1000,
-            "currency": "EUR"
-        },
-        "promo": true,
-        "rating": 3.5
+  {
+    "id": "001",
+    "name": "Test Prod 1",
+    "photo": "1.jpg",
+    "price": {
+      "amount": 1000,
+      "currency": "EUR"
     },
-    {
-        "id": "002",
-        "name": "Test Prod 2",
-        "photo": "1.jpg",
-        "price": {
-            "amount": 1000,
-            "currency": "EUR"
-        },
-        "promo": true,
-        "rating": 3.5
+    "promo": true,
+    "rating": 3.5
+  },
+  {
+    "id": "002",
+    "name": "Test Prod 2",
+    "photo": "1.jpg",
+    "price": {
+      "amount": 1000,
+      "currency": "EUR"
+    },
+    "promo": true,
+    "rating": 3.5
+  },
+  {
+    "name": "Big",
+    "photo": "",
+    "price": {
+      "amount": "Bada",
+      "currency": "EUR"
+    },
+    "promo": "on"
+  },
+  {
+    "name": "Big",
+    "photo": "",
+    "price": {
+      "amount": "Bada",
+      "currency": "EUR"
+    },
+    "promo": "on"
+  },
+  {
+    "name": "Big",
+    "photo": "",
+    "price": null,
+    "promo": "on"
+  },
+  {
+    "name": "abss",
+    "photo": "",
+    "price": {
+      "amount": "",
+      "currency": "EUR"
     }
+  }
 ]

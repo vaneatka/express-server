@@ -14,10 +14,4 @@ express - mvc (model view controller)
         auth - autentificare
         routes- rutele din sistem
 
-
-
-
-
-
         citire ejs, pug, marko , handlebars, mustache
-        

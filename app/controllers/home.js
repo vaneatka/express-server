@@ -5,8 +5,7 @@ exports.home = function(req, res) {
 		error : req.flash("error"),
 		success: req.flash("success"),
 		session:req.session,
-		title: "Test"
-	
+		title: "Test"	
 	 });
 	 
 }

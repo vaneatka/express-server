@@ -1,4 +1,6 @@
 var fs = require('fs');
+const Product = require("../models/Product");
+const {  validationResult } = require('express-validator');
 exports.productIndex = ( req, res )=> {
     fs.readFile('./database/products.json', (err,data)=>{
         if(!err){
@@ -35,4 +37,26 @@ exports.productDelete = ( req, res )=> {
             res.jsonp(product)
         }
     });
+}
+
+exports.productCreate = ( req, res )=> {
+
+    res.render('product-form.ejs', {
+		error : req.flash("error"),
+		success: req.flash("success"),
+		session:req.session,
+		title: "Test"
+	
+	 });
+	 
+}
+
+exports.productSave = ( req, res )=> {
+    const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    return res.status(422).json({ errors: errors.array() });
+  }
+        res.send('ok')	 
+        let p = new Product(req.body)
+        p.save();
 }

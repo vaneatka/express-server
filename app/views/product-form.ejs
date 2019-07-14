@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Add Form</title>
+</head>
+<body>
+    <form action="/product/save" method="post">
+        <input type="text" name="name" placeholder="Product Name"><br>
+        <input type="file" name="photo"><br>
+        <input type="text" name="price[amount]"><br>
+        <select name="price[currency]" id="">
+            <option value="EUR">EUR</option>
+            <option value="MDL">MDL</option>
+            <option value="RUB">RUB</option>
+            <option value="USD">USD</option>
+        </select>
+        <input type="checkbox" name="promo" id=""> Promo or not<br>
+        <input type="number" placeholder="rating"> <br>
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>
